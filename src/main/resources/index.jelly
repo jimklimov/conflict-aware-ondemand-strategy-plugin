@@ -1,4 +1,6 @@
 <?jelly escape-by-default='true'?>
 <div>
-    TODO
+    Help co-locate Jenkins build agents on resource-constrained hosts --
+    by only letting those agents activate one at a time, complete their
+    part of a task, and yielding to let another start.
 </div>
