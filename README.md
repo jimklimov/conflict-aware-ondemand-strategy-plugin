@@ -1,11 +1,11 @@
 # Conflict Aware On Demand Retention Strategy plugin
 
-[![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/conflict-aware-ondemand-retention-strategy.svg)](https://plugins.jenkins.io/conflict-aware-ondemand-retention-strategy)
-[![GitHub release](https://img.shields.io/github/release/jenkinsci/conflict-aware-ondemand-retention-strategy-plugin.svg?label=release)](https://github.com/jenkinsci/conflict-aware-ondemand-retention-strategy-plugin/releases/latest)
-[![Jenkins Plugin Installs](https://img.shields.io/jenkins/plugin/i/conflict-aware-ondemand-retention-strategy.svg?color=blue)](https://plugins.jenkins.io/conflict-aware-ondemand-retention-strategy)
-[![Build Status](https://ci.jenkins.io/job/Plugins/job/conflict-aware-ondemand-retention-strategy-plugin/job/main/badge/icon)](https://ci.jenkins.io/job/Plugins/job/conflict-aware-ondemand-retention-strategy-plugin/job/main/)
-[![GitHub license](https://img.shields.io/github/license/jenkinsci/conflict-aware-ondemand-retention-strategy-plugin.svg)](https://github.com/jenkinsci/conflict-aware-ondemand-retention-strategy-plugin/blob/main/LICENSE.txt)
-[![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)](https://github.com/jenkinsci/conflict-aware-ondemand-retention-strategy-plugin)
+[![Jenkins Plugin](https://img.shields.io/jenkins/plugin/v/conflict-aware-ondemand-strategy.svg)](https://plugins.jenkins.io/conflict-aware-ondemand-strategy)
+[![GitHub release](https://img.shields.io/github/release/jenkinsci/conflict-aware-ondemand-strategy-plugin.svg?label=release)](https://github.com/jenkinsci/conflict-aware-ondemand-strategy-plugin/releases/latest)
+[![Jenkins Plugin Installs](https://img.shields.io/jenkins/plugin/i/conflict-aware-ondemand-strategy.svg?color=blue)](https://plugins.jenkins.io/conflict-aware-ondemand-strategy)
+[![Build Status](https://ci.jenkins.io/job/Plugins/job/conflict-aware-ondemand-strategy-plugin/job/main/badge/icon)](https://ci.jenkins.io/job/Plugins/job/conflict-aware-ondemand-strategy-plugin/job/main/)
+[![GitHub license](https://img.shields.io/github/license/jenkinsci/conflict-aware-ondemand-strategy-plugin.svg)](https://github.com/jenkinsci/conflict-aware-ondemand-strategy-plugin/blob/main/LICENSE.txt)
+[![Maintenance](https://img.shields.io/maintenance/yes/2022.svg)](https://github.com/jenkinsci/conflict-aware-ondemand-strategy-plugin)
 
 ## Introduction
 
