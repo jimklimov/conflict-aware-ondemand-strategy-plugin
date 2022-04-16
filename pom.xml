@@ -58,4 +58,14 @@
             <url>https://repo.jenkins-ci.org/public/</url>
         </pluginRepository>
     </pluginRepositories>
+
+    <developers>
+        <developer>
+            <id>jimklimov</id>
+            <name>Jim Klimov</name>
+            <email>jimklimov+jenkinsci@gmail.com</email>
+            <timezone>1</timezone>
+        </developer>
+    </developers>
+
 </project>
