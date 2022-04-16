@@ -8,7 +8,7 @@
         <relativePath />
     </parent>
     <groupId>io.jenkins.plugins</groupId>
-    <artifactId>conflict-aware-ondemand-retention-strategy</artifactId>
+    <artifactId>conflict-aware-ondemand-strategy</artifactId>
     <version>${revision}${changelist}</version>
     <packaging>hpi</packaging>
     <properties>
