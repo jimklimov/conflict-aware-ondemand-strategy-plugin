@@ -23,7 +23,7 @@ import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import jenkins.model.Jenkins;
-import net.jcip.annotations.GuardedBy;
+//import net.jcip.annotations.GuardedBy;
 import org.jenkinsci.Symbol;
 import org.kohsuke.stapler.DataBoundConstructor;
 import org.kohsuke.stapler.DataBoundSetter;
@@ -98,8 +98,11 @@ public class OnDemandNoConflicts extends RetentionStrategy<SlaveComputer> {
         this.conflictsWith = value.trim();
     }
 
+    // GuardedBy was deprecated from Jenkins along with JSR-305 annotations
+    // (but there was no replacement via spotbugs. So the comment is left for
+    // humans rather than machines.
     @Override
-    @GuardedBy("hudson.model.Queue.lock")
+    //@GuardedBy("hudson.model.Queue.lock")
     public long check(final SlaveComputer c) {
         if (c.isOffline() && c.isLaunchSupported()) {
             Set<String> hasConflict = new HashSet();
