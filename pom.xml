@@ -17,6 +17,8 @@
         <jenkins.version>2.361.4</jenkins.version>
         <!-- Note: keep in sync with io.jenkins.tools.bom version below -->
         <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
+        <spotbugs.effort>Max</spotbugs.effort>
+        <spotbugs.threshold>Low</spotbugs.threshold>
     </properties>
     <name>Conflict Aware On Demand Retention Strategy Plugin</name>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
