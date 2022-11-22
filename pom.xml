@@ -14,8 +14,12 @@
     <properties>
         <revision>2</revision>
         <changelist>999999-SNAPSHOT</changelist>
-        <jenkins.version>2.277.1</jenkins.version>
-        <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>    </properties>
+        <jenkins.version>2.361.4</jenkins.version>
+        <!-- Note: keep in sync with io.jenkins.tools.bom version below -->
+        <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
+        <spotbugs.effort>Max</spotbugs.effort>
+        <spotbugs.threshold>Low</spotbugs.threshold>
+    </properties>
     <name>Conflict Aware On Demand Retention Strategy Plugin</name>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
 
@@ -23,8 +27,8 @@
         <dependencies>
             <dependency>
                 <groupId>io.jenkins.tools.bom</groupId>
-                <artifactId>bom-2.277.x</artifactId>
-                <version>961.vf0c9f6f59827</version>
+                <artifactId>bom-2.361.x</artifactId>
+                <version>1706.vc166d5f429f8</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
