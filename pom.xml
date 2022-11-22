@@ -15,7 +15,6 @@
         <revision>2</revision>
         <changelist>999999-SNAPSHOT</changelist>
         <jenkins.version>2.277.1</jenkins.version>
-        <java.level>8</java.level>
         <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>    </properties>
     <name>Conflict Aware On Demand Retention Strategy Plugin</name>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
